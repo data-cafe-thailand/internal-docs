@@ -2,6 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  build: {
+    minify: false,
+  },
   title: "Data Cafe Handbook",
   description: "An internal technical handbook for data cafe people",
   themeConfig: {
