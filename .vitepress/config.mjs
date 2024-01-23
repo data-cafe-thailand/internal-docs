@@ -2,9 +2,6 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  build: {
-    minify: false,
-  },
   title: "Data Cafe Handbook",
   description: "An internal technical handbook for data cafe people",
   themeConfig: {
@@ -27,5 +24,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+  base: '/internal-docs/',
 })
