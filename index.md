@@ -5,13 +5,13 @@ layout: home
 hero:
   name: "Data Cafe Handbook"
   text: "An internal technical handbook for data cafe people"
-  tagline: My great project tagline
+  tagline: "Brewing knowledge, serving solutions: Your Data Cafe handbook."
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Page A Examples
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: Page B Examples
       link: /api-examples
 
 features:
