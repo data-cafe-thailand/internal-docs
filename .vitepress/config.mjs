@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Data Cafe Handbook",
-  description: "An internal technical handbook for data cafe people",
+  description: "an internal technical handbook for data cafe people",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -15,8 +15,8 @@ export default defineConfig({
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Page A Examples', link: '/markdown-examples' },
+          { text: 'Page B Examples', link: '/api-examples' }
         ]
       }
     ],

@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Data Cafe Handbook"
-  text: "An internal technical handbook for data cafe people"
+  text: "an internal technical handbook for data cafe people"
   tagline: "Brewing knowledge, serving solutions: Your Data Cafe handbook."
   actions:
     - theme: brand
